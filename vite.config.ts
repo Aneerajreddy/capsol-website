@@ -6,6 +6,5 @@ const base = process.env.GITHUB_ACTIONS === 'true' && repositoryName ? `/${repos
 
 export default defineConfig({
   base,
-export default defineConfig({
   plugins: [react()],
 });
